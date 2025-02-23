@@ -1,0 +1,205 @@
+# if else questions is here for solving the questions  
+# # question 1
+# num = int(input("enter an integer : "))
+# #  check if the number is even or odd 
+
+# if num % 2 == 0:
+#     print("the number is even")
+# else:
+#     print("the number is odd")    
+
+# # question 2
+# luup = "y"
+# while luup =="y":
+#     num = int(input("enter an integer :"))
+
+# # check if the number is positive, negative or zero
+# if num > 0:
+#     print("the number is positive")
+# elif num < 0:
+#     print("the number is negative")
+# else:
+#     print("the number is zero")
+
+# luup = input("do you want to continue: (y/n)")
+
+# # # question 3
+
+# score = int(input("Enter the score:"))
+# # classify the score into grades
+# if score >= 90:
+#     print("Grade A")
+# elif score >= 80:
+#     print("Grade B")
+# elif score >= 70:
+#     print("Grade C")
+# elif score >= 60:
+#     print("Grade D")
+# else:
+#     print("Grade F")
+
+# # the question on the no 4
+
+# year = int(input("Enter the year :"))
+
+# # check if the year is a leap year or not
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print("the year is a leap year")
+# else:
+#     print("the year is not a leap year")
+
+
+# # question 5
+
+# num1 = int(input("enter an number :"))
+# num2 = int(input("enter an number :"))
+# num3 = int(input("enter an number :"))
+
+# # find the largest number number 
+# if num1 >= num2 and num1 >= num3:
+#     largest = num1
+# elif num2 >= num1 and num2 >= num3:
+#     largest = num2
+# else:
+#     largest = num3
+
+# # print(f"the largest number is: {largest}")
+
+# #  question number 6
+# num = int(input("Enter an integer:"))
+
+# # check divisibility by 5 and 11
+# if num % 5 == 0 and num % 11 == 0:
+#     print("the number is divisible by 5 and 11")
+# elif num % 5 == 0:
+#     print("divisible by 5")
+# elif num % 11 == 0:
+#     print("divisible by 11")
+# else:
+#     print("not divisible by 5 and 11") 
+# 
+
+# #  question 7
+
+# char = input("Enter a character:").lower()
+
+# if char in 'aeiou':
+#     print("vowel")
+# else:
+#     print("consonant")
+
+# # # question 8
+# age = int(input("enter your age: "))
+
+# # classify the age into groups
+# if age >= 0 and age <= 12:
+#     print("child")
+# elif age >= 13 and age <= 19:
+#     print("teenager")
+# elif age >= 20 and age <= 59:
+#     print("adult")
+# else:
+#     print("senior citizen")
+
+# c = 'y'
+# while c=='y':
+#     a = int(input("ENTER YOUR CHOICE FIRST NUMBER : "))
+#     b = int(input("ENTER YOUR CHOICE SECOND NUMBER:"))
+
+#     ch=input("add:1\n sub:2\n mult:3\n div:4\n  enter what you want: ")
+#     if ch=='1':
+#         print("sum of a and b is : ", a+b)
+#     elif ch=='2':
+#         print("sum of a and b is : ", a-b)
+#     elif ch=='3':
+#         print("sum of a and b is : ", a*b)
+#     elif ch=='4':
+#         print("sum of a and b is : ", a/b)
+#     else:
+#         print("invalid choice")
+
+#     c=input("do you want to continue: (y/n)")
+
+
+# questin even or odd program 
+# b = 'y'
+# while b=='y':
+#     a = int(input("Enter the number: "))
+#     if a%2==0:
+#         print("the number is even")
+#     else:
+#         print("the number is odd")
+
+#     b = input("do you want to continue: (y/n)")
+
+# # question no 3 
+# int_input = int(input("Enter an integer:"))
+# float_input = float(input("Enter an float:"))
+
+# # converting integer to float
+
+# result1 = float(int_input)+ float_input
+# print(f"Result of adding integer (as float) to float: {result1}")
+
+# # converting float to integer
+# result2 = int(float_input) + int_input
+# print(f"Result of adding float to integer (as integer): {result2}")
+
+# # question no 4 
+# int_input = int(input("Enter and integer:"))
+# float_input = float(input("Enter a float:"))
+# str_input = input("Enter a string:")
+
+# # convert string to integer and add to integer input 
+# result1 = int(str_input) + int_input
+# print(f"result of adding string (as integer) to integer: {result1}")
+
+# # convert string to float and add to float input
+# result2 = float(str_input) + float_input
+# print(f"result of adding string (as float) to float: {result2}")
+
+# # question no 5
+# int_input = int(input("enter and integer :"))
+# float_input = float(input("enter and integer :"))
+# str_input = input("enter and integer :")
+
+# # convert integer to string and add to string input
+# result1 =int(str_input) + int_input
+# print(f"Result of adding string (as integer) to integer :{result1}")
+
+# # convert integer to float and add to float input
+# result2 = float(int_input) + float_input
+# print(f"Result of adding integer (as float) to float :{result2}")
+
+
+# # question no 6
+# int_input = int(input("Enter an integer:"))
+# float_input = float(input("Enter a float:"))
+# str_input = input("Enter a string:")
+
+# # convert float to string and add to string input
+# result1 = int(str_input) * int_input
+# print(f"Result of multiplying string (as integer) by integer: {result1}")
+
+# # convert float to integer and multiply by integer input
+# result2 = float_input * int(int_input)
+# print(f"Result of dividing float by string (as float):{result2}")
+
+# result3 = (int_input + float_input) - float(str_input)
+# print(f"Result of adding integer and float, then subtracting string (as float): {result3}")
+
+# # # question no 7
+# num1 = int(input("enter the first number:"))
+# num2 = int(input("enter the second number:"))
+
+# greater_than = num1 > num2
+# equal_to = num1 == num2
+# not_equal_to = num1 != num2
+# less_than = (num1 > 10) and (num2 < 20)
+
+# #print the results 
+# print(f"is the first number greater than the second number? {greater_than}")
+# print(f"is the first number equal to the second number? {equal_to}")
+# print(f"is the first number not equal to the second number? {not_equal_to}")
+# print(f"is the first number greater than 10 and the second number less than 20? {less_than}")
+
